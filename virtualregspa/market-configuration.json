@@ -1,0 +1,217 @@
+{
+  "interfaces": {
+    "tenant": {
+      "tenantCode": "common-spirit",
+      "divisions": [
+        {
+          "name": "Dignity Health",
+          "code": "dignity-health"
+        }
+      ]
+    },
+    "scheduling": {
+      "allowLogin": true
+    }
+  },
+  "theme": {
+    "fonts": {
+      "fontFamily": "\"trade-gothic-next\", Arial",
+      "fontCssUrl": "https://use.typekit.net/dfg1mni.css"
+    },
+    "colorPalette": "dhcl-virginia-mason"
+  },
+  "features": [
+    {
+      "key": "features.personalInformation.page",
+      "state": "on"
+    },
+    {
+      "key": "features.personalInformation.uploadId",
+      "state": "off"
+    },
+    {
+      "key": "features.personalInformation.personalInformation",
+      "state": "on"
+    },
+    {
+      "key": "features.personalInformation.emergencyContact",
+      "state": "on"
+    },
+    {
+      "key": "features.insuranceDetails.page",
+      "state": "on"
+    },
+    {
+      "key": "features.insuranceDetails.card.primary",
+      "state": "on"
+    },
+    {
+      "key": "features.insuranceDetails.card.secondary",
+      "state": "on"
+    },
+    {
+      "key": "features.insuranceDetails.cardUpload",
+      "state": "off"
+    },
+    {
+      "key": "features.insuranceDetails.inputFields",
+      "state": "on"
+    },
+    {
+      "key": "features.consent.page",
+      "state": "off"
+    },
+    {
+      "key": "features.medicalInformation.page",
+      "state": "off"
+    },
+    {
+      "key": "features.payment.page",
+      "state": "off"
+    },
+    {
+      "key": "features.login.checkIn",
+      "state": "on"
+    },
+    {
+      "key": "features.personalInformation.firstName",
+      "state": "on"
+    },
+    {
+      "key": "features.personalInformation.middleName",
+      "state": "off"
+    },
+    {
+      "key": "features.personalInformation.lastName",
+      "state": "on"
+    },
+    {
+      "key": "features.personalInformation.preferredName",
+      "state": "off"
+    },
+    {
+      "key": "features.personalInformation.dateOfBirth",
+      "state": "on"
+    },
+    {
+      "key": "features.personalInformation.gender",
+      "state": "on"
+    },
+    {
+      "key": "features.personalInformation.email",
+      "state": "on"
+    },
+    {
+      "key": "features.personalInformation.streetAddress",
+      "state": "on"   
+    },
+    {
+      "key": "features.personalInformation.city",
+      "state": "on"
+    },
+    {
+      "key": "features.personalInformation.state",
+      "state": "on"
+    },
+    {
+      "key": "features.personalInformation.zipCode",
+      "state": "on"
+    },
+    {
+      "key": "features.personalInformation.country",
+      "state": "on"  
+    },
+    {
+      "key": "features.personalInformation.legalGender",
+      "state": "off"
+    },
+    {
+      "key": "features.personalInformation.genderAssignedAtBirth",
+      "state": "off"
+    },
+    {
+      "key": "features.personalInformation.genderIdentity",
+      "state": "off"
+    },
+    {
+      "key": "features.personalInformation.sexualOrientation",
+      "state": "off"
+    },
+    {
+      "key": "features.personalInformation.maritalStatus",
+      "state": "off"
+    },
+    {
+      "key": "features.personalInformation.race",
+      "state": "on"
+    },
+    {
+      "key": "features.personalInformation.additionalRace",
+      "state": "on"
+    },
+    {
+      "key": "features.personalInformation.ethnicity",
+      "state": "on"
+    },
+    {
+      "key": "features.personalInformation.ethnicBackground",
+      "state": "off"
+    },
+    {
+      "key": "features.personalInformation.preferredLanguage",
+      "state": "on"
+    },
+    {
+      "key": "features.personalInformation.religion",
+      "state": "off"
+    },
+    {
+      "key": "features.personalInformation.phoneType",
+      "state": "on"
+    },
+    {
+      "key": "features.personalInformation.phoneNumber",
+      "state": "on"
+    },
+    {
+      "key": "features.emergencyContact.firstName",
+      "state": "on"
+    },
+    {
+      "key": "features.emergencyContact.lastName",
+      "state": "on"
+    },
+    {
+      "key": "features.emergencyContact.relation",
+      "state": "off"
+    },
+    {
+      "key": "features.emergencyContact.phoneNumber",
+      "state": "on"
+    },
+    {
+      "key": "features.emergencyContact.phoneType",
+      "state": "off"
+    },
+    {
+      "key": "features.emergencyContact.firstName.required",
+      "state": "off"
+    },
+    {
+      "key": "features.emergencyContact.lastName.required",
+      "state": "off"
+    },
+    {
+      "key": "features.emergencyContact.phoneNumber.required",
+      "state": "off"
+    },
+    {
+      "key": "features.emergencyContact.relation.required",
+      "state": "off"
+    },
+    {
+      "key": "features.emergencyContact.phoneType.required",
+      "state": "off"
+    }
+  ]
+}

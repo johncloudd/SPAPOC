@@ -1,0 +1,14 @@
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/oidc-client/1.7.0/oidc-client.min.js"></script>-->
+<script src="https://cdn-dev.dignityhealthppe.org/identity-manager/silent-renewal/oidc-client-1.7.0.min.js"></script>
+<script>
+  var mgr = new Oidc.UserManager();
+  mgr.signinSilentCallback()
+    .then(()=> {
+      console.log('Silent Renewal Complete');
+    })
+    .catch(e=> {
+      console.log('Silent Renewal Failed');
+      console.error(e);
+    });
+</script>
+<h1>Silent Renewal Page</h1>

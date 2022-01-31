@@ -1,0 +1,22 @@
+[
+    {
+        "Field": "specialtyDomains.specialties.specialty",
+        "Weight": 50
+    },
+    {
+        "Field": "providerDetails.procedures",
+        "Weight": 90
+    },
+    {
+        "Field": "providerDetails.practiceNames",
+        "Weight": 70
+    },
+    {
+        "Field": "providerDetails.name.fullName",
+        "Weight": 30
+    },
+    {
+        "Field": "providerDetails.name.last",
+        "Weight": 10
+    }
+]

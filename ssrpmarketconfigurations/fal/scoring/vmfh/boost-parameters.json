@@ -1,0 +1,22 @@
+[
+    {
+        "Field": "name",
+        "Weight": 15
+    },
+    {
+        "Field": "id",
+        "Weight": 15
+    },
+    {
+        "Field": "address.postalCode",
+        "Weight": 7
+    },
+    {
+        "Field": "address.city",
+        "Weight": 4
+    },
+    {
+        "Field": "address.state",
+        "Weight": 2
+    }
+]
