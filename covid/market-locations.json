@@ -1,0 +1,23 @@
+{
+  "mmg":[
+    "elk-grove-wymark",
+    "midtown-3rd-floor",
+    "mmg-covid-vaccine-folsom",
+    "mmg-greenback-lane"
+  ],
+  "woodland":[
+    "woodland-3"
+  ],
+  "dominican":[
+    "dhmg-covid-vaccine-harbor-high"
+  ],
+  "phc":[
+    "family-medicine-center",
+    "med-plus-central-coast",
+    "medical-clinic-at-posada",
+    "med-plus-atascadero",
+    "med-plus-pismo-beach",
+    "pchc-family-medicine-center",
+    "pchc-med-plus-atascadero"
+  ]
+}

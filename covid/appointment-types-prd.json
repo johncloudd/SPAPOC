@@ -1,0 +1,23 @@
+[
+  {
+    "name":"COVID19 Vaccine 1st Dose",
+    "patientAppointmentType":"both",
+    "remoteId":"VM1",
+    "categoryType":"in-person",
+    "id":"covid19-vaccine-1st-dose"
+  },
+  {
+    "name":"COVID19 Vaccine 1st Dose",
+    "patientAppointmentType":"both",
+    "remoteId":"VP1",
+    "categoryType":"in-person",
+    "id":"covid19-vaccine-1st-dose-pfizer"
+  },
+  {
+    "name":"COVID19 Vaccine Single Dose",
+    "patientAppointmentType":"both",
+    "remoteId":"VJ1",
+    "categoryType":"in-person",
+    "id":"covid19-vaccine-janssen"
+  }
+]

@@ -1,0 +1,656 @@
+{
+   "value": {
+      "jsonapi": {
+         "version": "1.0"
+      },
+      "data": {
+         "type": "schedules",
+         "id": "e3bc0594-3d4f-44b5-b52a-5bda94b94327"
+      },
+      "included": [
+         {
+            "type": "validations",
+            "id": "0",
+            "attributes": {
+               "kind": "presence",
+               "attributes": [
+                  "city"
+               ],
+               "in": []
+            }
+         },
+         {
+            "type": "validations",
+            "id": "0",
+            "attributes": {
+               "kind": "presence",
+               "attributes": [
+                  "state"
+               ],
+               "in": []
+            }
+         },
+         {
+            "type": "validations",
+            "id": "0",
+            "attributes": {
+               "kind": "presence",
+               "attributes": [
+                  "address"
+               ],
+               "in": []
+            }
+         },
+         {
+            "type": "validations",
+            "id": "89789256-048d-40a6-ac2a-d1bb67b991a5",
+            "attributes": {
+               "kind": "birthdate",
+               "attributes": [
+                  "birthdate"
+               ],
+               "in": []
+            }
+         },
+         {
+            "type": "validations",
+            "id": "bf2d48dc-95df-41d7-a6ce-ab4be7bfbf18",
+            "attributes": {
+               "kind": "presence",
+               "attributes": [
+                  "birthdate"
+               ],
+               "in": []
+            }
+         },
+         {
+            "type": "validations",
+            "id": "32d61ef7-4996-4342-84f8-e1dc5224ab2d",
+            "attributes": {
+               "kind": "email",
+               "attributes": [
+                  "email"
+               ],
+               "in": []
+            }
+         },
+         {
+            "type": "validations",
+            "id": "c09ac596-5895-4689-b0ab-97a55921a7ab",
+            "attributes": {
+               "kind": "presence",
+               "attributes": [
+                  "email"
+               ],
+               "in": []
+            }
+         },
+         {
+            "type": "validations",
+            "id": "76c2e937-f5aa-46cd-85c2-ace37e4356b3",
+            "attributes": {
+               "kind": "presence",
+               "attributes": [
+                  "first-name"
+               ],
+               "in": []
+            }
+         },
+         {
+            "type": "validations",
+            "id": "21e15978-0729-490b-b98f-d9d01964cbd4",
+            "attributes": {
+               "kind": "inclusion",
+               "attributes": [
+                  "gender"
+               ],
+               "in": [
+                  "female",
+                  "male"
+               ]
+            }
+         },
+         {
+            "type": "validations",
+            "id": "d1afa163-c985-40f0-95bd-431c56236a5b",
+            "attributes": {
+               "kind": "presence",
+               "attributes": [
+                  "gender"
+               ],
+               "in": []
+            }
+         },
+         {
+            "type": "validations",
+            "id": "5caa99ee-bdeb-498a-9b61-07260c489540",
+            "attributes": {
+               "kind": "presence",
+               "attributes": [
+                  "insurance-plan-permalink"
+               ],
+               "in": []
+            }
+         },
+         {
+            "type": "validations",
+            "id": "9fd42be1-86e8-4d6a-949e-e8159dc6bc00",
+            "attributes": {
+               "kind": "presence",
+               "attributes": [
+                  "last-name"
+               ],
+               "in": []
+            }
+         },
+         {
+            "type": "validations",
+            "id": "7dfb43ce-eb1f-4155-ba4f-997be1076072",
+            "attributes": {
+               "kind": "format",
+               "attributes": [
+                  "middle-initial"
+               ],
+               "allow-blank": true,
+               "with": "(^[a-zA-Z]{1}$)",
+               "in": []
+            }
+         },
+         {
+            "type": "validations",
+            "id": "f742296a-2440-4482-b579-a407a12b90a7",
+            "attributes": {
+               "kind": "presence",
+               "attributes": [
+                  "new-patient"
+               ],
+               "in": []
+            }
+         },
+         {
+            "type": "validations",
+            "id": "4c72e0c4-000d-41f7-a02e-a2d408997872",
+            "attributes": {
+               "kind": "presence",
+               "attributes": [
+                  "patient-complaint"
+               ],
+               "in": []
+            }
+         },
+         {
+            "type": "validations",
+            "id": "1d135d60-babf-49f3-9302-e13dc0860071",
+            "attributes": {
+               "kind": "phone",
+               "attributes": [
+                  "phone-number"
+               ],
+               "allow-blank": false,
+               "in": []
+            }
+         },
+         {
+            "type": "validations",
+            "id": "fe4cbded-f7fd-4666-b2e4-12559587b07c",
+            "attributes": {
+               "kind": "acceptance",
+               "attributes": [
+                  "terms-tos"
+               ],
+               "allow-nil": true,
+               "accept": "1",
+               "in": []
+            }
+         },
+         {
+            "type": "validations",
+            "id": "4c9ee202-9cbb-4b2b-8efc-41bbaeeac0d8",
+            "attributes": {
+               "kind": "zip",
+               "attributes": [
+                  "zip"
+               ],
+               "in": []
+            }
+         },
+         {
+            "type": "validations",
+            "id": "28efb45f-41b7-4792-a960-aa28b981a311",
+            "attributes": {
+               "kind": "presence",
+               "attributes": [
+                  "zip"
+               ],
+               "in": []
+            }
+         },
+         {
+            "type": "patient-instructions",
+            "id": "d2e197d0-b1ae-46a7-8eb7-fd76fc7c1e4b",
+            "attributes": {
+               "text": "Bring a referral if your appointment is a consult with a specialist, have a list of your current medications (or bottles) that you take, and have your co-payment/co-insurance which is due at the time of service.<br/><br/>By requesting a same day appointment it is our expectation that you will keep this reserved time. For cancellation of this visit please contact our office immediately and refer to your confirmation email for instructions."
+            }
+         },
+         {
+            "type": "enabled-fields",
+            "id": "b8dcbad3-e8d5-4f4f-ab7e-f6cd41a0ff9c",
+            "attributes": {
+               "fields": [
+                  "birthdate",
+                  "caregiver-name",
+                  "email",
+                  "first-name",
+                  "gender",
+                  "insurance-plan-name",
+                  "insurance-plan-permalink",
+                  "last-name",
+                  "middle-initial",
+                  "new-patient",
+                  "optin",
+                  "patient-complaint",
+                  "phone-number",
+                  "pregnant",
+                  "terms-tos",
+                  "weeks-pregnant",
+                  "zip"
+               ]
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "aetna-8",
+            "attributes": {
+               "company": "Aetna",
+               "name": "Aetna"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "ameriben-1",
+            "attributes": {
+               "company": "Ameriben",
+               "name": "Ameriben"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "anthem-blue-cross-2",
+            "attributes": {
+               "company": "Anthem Blue Cross",
+               "name": "Anthem Blue Cross"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "az-foundation-for-medical-care-1",
+            "attributes": {
+               "company": "AZ Foundation",
+               "name": "AZ Foundation"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "bcbs-out-of-state",
+            "attributes": {
+               "company": "BC/BS Out of State",
+               "name": "BC/BS Out of State"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "bcbs-of-az",
+            "attributes": {
+               "company": "BCBS of AZ",
+               "name": "BCBS of AZ"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "blue-shield-of-california-2",
+            "attributes": {
+               "company": "Blue Shield of CA",
+               "name": "Blue Shield of CA"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "ccpn",
+            "attributes": {
+               "company": "CCPN",
+               "name": "CCPN"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "central-coast-alliance-for-health-ccah",
+            "attributes": {
+               "company": "Central Coast Alliance for Health / CCAH",
+               "name": "Central Coast Alliance for Health / CCAH"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "champ-va-3",
+            "attributes": {
+               "company": "ChampVA",
+               "name": "ChampVA"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "cigna-8",
+            "attributes": {
+               "company": "Cigna",
+               "name": "Cigna"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "first-health-5",
+            "attributes": {
+               "company": "First Health",
+               "name": "First Health"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "gold-coast-health-plan-1",
+            "attributes": {
+               "company": "Gold Coast Health Plan",
+               "name": "Gold Coast Health Plan"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "golden-rule-2",
+            "attributes": {
+               "company": "Golden Rule",
+               "name": "Golden Rule"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "great-west-healthcare-7",
+            "attributes": {
+               "company": "Great West",
+               "name": "Great West"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "health-choice-az-generation",
+            "attributes": {
+               "company": "Health Choice AZ & Generation",
+               "name": "Health Choice AZ & Generation"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "healthnet-2",
+            "attributes": {
+               "company": "HealthNet",
+               "name": "HealthNet"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "healthsmart-4",
+            "attributes": {
+               "company": "HealthSmart",
+               "name": "HealthSmart"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "humana-8",
+            "attributes": {
+               "company": "Humana",
+               "name": "Humana"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "imperial-health-holdings",
+            "attributes": {
+               "company": "Imperial Health Holdings",
+               "name": "Imperial Health Holdings"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "intervalley-health-plan",
+            "attributes": {
+               "company": "Intervalley Health Plan",
+               "name": "Intervalley Health Plan"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "kaiser-1",
+            "attributes": {
+               "company": "Kaiser",
+               "name": "Kaiser"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "kern-1",
+            "attributes": {
+               "company": "Kern Health Systems (KHS)",
+               "name": "Kern Health Systems (KHS)"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "medi-cal-2",
+            "attributes": {
+               "company": "Medi-Cal",
+               "name": "Medi-Cal"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "medicare-8",
+            "attributes": {
+               "company": "Medicare",
+               "name": "Medicare"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "mercy-care-2",
+            "attributes": {
+               "company": "Mercy Care Plan",
+               "name": "Mercy Care Plan"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "mercy-maricopa-integrated-care-2",
+            "attributes": {
+               "company": "Mercy Maricopa Integrated",
+               "name": "Mercy Maricopa Integrated"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "molina-2",
+            "attributes": {
+               "company": "Molina",
+               "name": "Molina"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "multiplan-7",
+            "attributes": {
+               "company": "Multiplan",
+               "name": "Multiplan"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "pacific-foundation-for-medical-care-1",
+            "attributes": {
+               "company": "Pacific Foundation for Medical Care",
+               "name": "Pacific Foundation for Medical Care"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "pacific-health-alliance-2",
+            "attributes": {
+               "company": "Pacific Health Alliance",
+               "name": "Pacific Health Alliance"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "partnership",
+            "attributes": {
+               "company": "Partnership",
+               "name": "Partnership"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "physicians-choice",
+            "attributes": {
+               "company": "Physicians Choice Medical Group",
+               "name": "Physicians Choice Medical Group"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "qualcare-1",
+            "attributes": {
+               "company": "Qual Choice",
+               "name": "Qual Choice"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "river-city-mg",
+            "attributes": {
+               "company": "River City Medical Group",
+               "name": "River City Medical Group"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "san-francisco-health-plan",
+            "attributes": {
+               "company": "San Francisco Health Plan",
+               "name": "San Francisco Health Plan"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "scan-2",
+            "attributes": {
+               "company": "SCAN",
+               "name": "SCAN"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "tricare-8",
+            "attributes": {
+               "company": "TriCare",
+               "name": "TriCare"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "uhc-community-care",
+            "attributes": {
+               "company": "UHC Community Care",
+               "name": "UHC Community Care"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "united-healthcare-8",
+            "attributes": {
+               "company": "United Healthcare",
+               "name": "United Healthcare"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "western-health-advantage-1",
+            "attributes": {
+               "company": "WHA (Western Health Advantage)",
+               "name": "WHA (Western Health Advantage)"
+            }
+         },
+         {
+            "type": "insurances",
+            "id": "none-49",
+            "attributes": {
+               "company": "NONE/Not Listed",
+               "name": "NONE/Not Listed"
+            }
+         },
+         {
+            "type": "schedule-properties",
+            "id": "ba09e2e5-1872-4bd4-a539-df63f41d6782",
+            "attributes": {
+               "age-limit-threshold": 0
+            }
+         },
+         {
+            "type": "special-character",
+            "id": "0",
+            "attributes": {
+               "fields": [
+                  "first-name",
+                  "last-name",
+                  "address",
+                  "city",
+                  "email"
+               ],
+               "ignoerCharacters": [
+                  "á",
+                  "é",
+                  "í",
+                  "ó",
+                  "ú",
+                  "ü",
+                  "ñ"
+               ],
+               "errorMessage": "Please use A-Z, a-z only"
+            }
+         }
+      ],
+      "validationoverride": {
+         "covid19-vaccine-1st-dose-moderna": {
+            "age-limit-threshold": 17,
+            "invalid-age-message": "You must be 18 years old to schedule this vaccine appointment"
+         },
+         "covid19-vaccine-1st-dose-pfizer": {
+            "age-limit-threshold": 11,
+            "invalid-age-message": "You must be 16 years old to schedule this vaccine appointment",
+            "show-care-giver-option": true,
+            "invalid-age-no-caregiver-message": "A Parent must schedule this appointment for a 12-15 year old by selecting I am scheduling for someone else",
+            "cannot-book-message": "Patients must be 12 years of age or older to receive the Pfizer vaccine",
+            "age-careGiver-threshold": 16
+         },
+         "vaccine-jj-single-dose": {
+            "age-limit-threshold": 17,
+            "invalid-age-message": "You must be 18 years old to schedule this vaccine appointment"
+         },
+         "covid-19-vaccine-pfizer-pediatric-1st-dose": {
+            "age-limit-threshold": 4,
+            "age-max-threshold": 12,
+            "invalid-age-message": "You must be 5-11 years old to schedule this vaccine appointment",
+            "show-care-giver-option": true,
+            "invalid-age-no-caregiver-message": "An adult must schedule an appointment for a 5-11 year old by selecting I am scheduling for someone else",
+            "cannot-book-message": "Patients must be 5 - 11 years of age to receive the Covid-19 Pediatric vaccine.",
+            "age-careGiver-threshold": 4,
+            "handle-max-min-limit": true
+         }
+      }
+   }
+}

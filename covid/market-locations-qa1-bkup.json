@@ -1,0 +1,336 @@
+{
+   "dominican":[
+      {
+         "id":"dhmg-covid-vaccine-harbor-high",
+         "idx_id":"D74",
+         "name":"DHMG - COVID Vaccine - Harbor High",
+         "address":{
+            "street":"300 LA FONDA AVE",
+            "city":"SANTA CRUZ",
+            "state":"CA",
+            "zip":"95062"
+         },
+         "phone":"(831) 288-6526",
+         "market":"dominican",
+         "logo":"DHMG"
+      },
+      {
+         "id":"dhmg-covid-vaccine-branciforte-middle-schooldominican",
+         "idx_id":"D87",
+         "name":"DHMG - COVID Vaccine - Branciforte Middle School/Dominican",
+         "address":{
+            "street":"315 POPLAR AVE",
+            "city":"SANTA CRUZ",
+            "state":"CA",
+            "zip":"95062"
+         },
+         "phone":"(831) 288-6526",
+         "market":"domincan",
+         "logo":"DHMG"
+      }
+   ],
+   "":[
+      {
+         "id":"dhmf-watsonville-family-practice",
+         "idx_id":"D12",
+         "name":"Watsonville - COVID Vaccine",
+         "address":{
+            "street":"575 AUTO CENTER DR",
+            "city":"WATSONVILLE",
+            "state":"CA",
+            "zip":"95076"
+         },
+         "phone":"(831) 288-6526",
+         "market":"",
+         "logo":"DHMG"
+      },
+      {
+         "id":"court-street-1",
+         "idx_id":"NS3",
+         "name":"North State - COVID Vaccine",
+         "address":{
+            "street":"1755 COURT STREET",
+            "city":"REDDING",
+            "state":"CA",
+            "zip":"96001"
+         },
+         "phone":"(530) 247-8858",
+         "market":"",
+         "logo":"DHMG"
+      },
+      {
+         "id":"march-lane",
+         "idx_id":"STK",
+         "name":"Stockton - COVID Vaccine",
+         "address":{
+            "street":"3132 WEST MARCH LANE SUITE 5",
+            "city":"STOCKTON",
+            "state":"CA",
+            "zip":"95219"
+         },
+         "phone":"(209) 475-5500",
+         "market":"",
+         "logo":"DHMG"
+      },
+      {
+         "id":"merced",
+         "idx_id":"MMM",
+         "name":"Merced - COVID Vaccine",
+         "address":{
+            "street":"315 MERCY AVENUE STE 400",
+            "city":"MERCED",
+            "state":"CA",
+            "zip":"95340"
+         },
+         "phone":"(209) 564-3700",
+         "market":"",
+         "logo":"DHMG"
+      },
+      {
+         "id":"southwest-bakersfield",
+         "idx_id":"B2",
+         "name":"Bakersfield - San Dimas - COVID Vaccine",
+         "address":{
+            "street":"3838 SAN DIMAS ST SUITE A200",
+            "city":"BAKERSFIELD",
+            "state":"CA",
+            "zip":"93301"
+         },
+         "phone":"(661) 654-0200",
+         "market":"",
+         "logo":"DHMG"
+      },
+      {
+         "id":"redwood-shores",
+         "idx_id":"SQ",
+         "name":"Sequoia - COVID Vaccine",
+         "address":{
+            "street":"1301 SHOREWAY DRIVE SUITE 100",
+            "city":"BELMONT",
+            "state":"CA",
+            "zip":"94002"
+         },
+         "phone":"(650) 596-7000",
+         "market":"",
+         "logo":"DHMG"
+      },
+      {
+         "id":"family-medicine-pediatrics-fontana",
+         "idx_id":"IE3",
+         "name":"Inland Empire - COVID Vaccine",
+         "address":{
+            "street":"17051 SIERRA LAKES #101",
+            "city":"FONTANA",
+            "state":"CA",
+            "zip":"92336"
+         },
+         "phone":"(909) 864-4700",
+         "market":"",
+         "logo":"DHMG"
+      },
+      {
+         "id":"grass-valley-service-area-2",
+         "idx_id":"D82",
+         "name":"Sierra Nevada - COVID Vaccine",
+         "address":{
+            "street":"155 GLASSON WAY SUITE L10",
+            "city":"GRASS VALLEY",
+            "state":"CA",
+            "zip":"95945"
+         },
+         "phone":"(530) 737-6233",
+         "market":"",
+         "logo":"DHMG"
+      },
+      {
+         "id":"ventura-1",
+         "idx_id":"C24",
+         "name":"Ventura - COVID Vaccine",
+         "address":{
+            "street":"2601 E MAIN ST STE 100",
+            "city":"VENTURA",
+            "state":"CA",
+            "zip":"93003"
+         },
+         "phone":"(805) 204-5012",
+         "market":"",
+         "logo":"DHMG"
+      },
+      {
+         "id":"northridge",
+         "idx_id":"C57",
+         "name":"Northridge Family Medicine - COVID Vaccine",
+         "address":{
+            "street":"18460 ROSCOE BLVD FL 3",
+            "city":"NORTHRIDGE",
+            "state":"CA",
+            "zip":"91325"
+         },
+         "phone":"(818) 885-5480",
+         "market":"",
+         "logo":"DHMG"
+      },
+      {
+         "id":"elk-grove-2",
+         "idx_id":"EG1",
+         "name":"Elk Grove - COVID Vaccine",
+         "address":{
+            "street":"8220 WYMARK DRIVE SUITE 200",
+            "city":"ELK GROVE",
+            "state":"CA",
+            "zip":"95757"
+         },
+         "phone":"(916) 844-1588",
+         "market":"",
+         "logo":"DHMG"
+      },
+      {
+         "id":"dignity-health-medical-group-sierra-nevada-covid-vaccine",
+         "idx_id":"D82",
+         "name":"Dignity Health Medical Group - Sierra Nevada (Grass Valley)",
+         "address":{
+            "street":"107 Margaret Lane",
+            "city":"GRASS VALLEY",
+            "state":"CA",
+            "zip":"95945"
+         },
+         "phone":"(530) 737-6233",
+         "market":"",
+         "logo":"DHMG"
+      },
+      {
+         "id":"dignity-health-medical-group-san-francisco-covid-vaccine",
+         "idx_id":"SF4",
+         "name":"Dignity Health Medical Group - San Francisco - COVID Vaccine",
+         "address":{
+            "street":"2250 HAYES STREET SUITE 302",
+            "city":"SAN FRANCISCO",
+            "state":"CA",
+            "zip":"94117-1078"
+         },
+         "phone":"(415) 379-2900",
+         "market":"",
+         "logo":"DHMG"
+      }
+   ],
+   "mmg":[
+      {
+         "id":"mmg-mercy-medical-group-citrus-height-medical-office-pediatrics",
+         "idx_id":"C49",
+         "name":"Citrus Heights - COVID Vaccine",
+         "address":{
+            "street":"7115 GREENBACK LN FL 3",
+            "city":"CITRUS HEIGHTS",
+            "state":"CA",
+            "zip":"95621"
+         },
+         "phone":"(916) 844-1588",
+         "market":"mmg",
+         "logo":"DHMG"
+      },
+      {
+         "id":"midtown-1",
+         "idx_id":"A07",
+         "name":"Sacramento - COVID Vaccine",
+         "address":{
+            "street":"3000 Q St. FL 3",
+            "city":"Sacramento",
+            "state":"CA",
+            "zip":"95816"
+         },
+         "phone":"(916) 844-1588",
+         "market":"mmg",
+         "logo":"DHMG"
+      },
+      {
+         "id":"mercy-medical-group-folsom-covid-vaccine",
+         "idx_id":"FL2",
+         "name":"Folsom - COVID Vaccine",
+         "address":{
+            "street":"1700 Prairie City Road Suite 170",
+            "city":"FOLSOM",
+            "state":"CA",
+            "zip":"95630"
+         },
+         "phone":"(916) 351-4800",
+         "market":"mmg",
+         "logo":"DHMG"
+      }
+   ],
+   "woodland":[
+      {
+         "id":"woodland-1",
+         "idx_id":"WG",
+         "name":"Gibson Road  - COVID Vaccine",
+         "address":{
+            "street":"632 W GIBSON ROAD",
+            "city":"WOODLAND",
+            "state":"CA",
+            "zip":"95695"
+         },
+         "phone":"(530) 668-2600 option 5",
+         "market":"woodland",
+         "logo":"DHMG"
+      },
+      {
+         "id":"woodland-clinic-covid-vaccine-east-st",
+         "idx_id":"D76",
+         "name":"COVID Vaccine - East St.",
+         "address":{
+            "street":"2001 EAST STREET",
+            "city":"WOODLAND",
+            "state":"CA",
+            "zip":"95695"
+         },
+         "phone":"(530) 668-2600 option 5",
+         "market":"woodland",
+         "logo":"DHMG"
+      }
+   ],
+   "az":[
+      {
+         "id":"st-josephs-family-medicine-1",
+         "idx_id":"FMC",
+         "name":"St. Joseph’s Family Medicine at Peppertree",
+         "address":{
+            "street":"2927 N 7th Ave",
+            "city":"Phoenix",
+            "state":"AZ",
+            "zip":"85013"
+         },
+         "phone":"(602) 406-3153",
+         "market":"az",
+         "logo":"DHMG Arizona"
+      },
+      {
+         "id":"4-500-building",
+         "idx_id":"FMC",
+         "name":"St. Joseph’s Family Medicine at Peppertree",
+         "address":{
+            "street":"2927 N 7th Ave",
+            "city":"Phoenix",
+            "state":"AZ",
+            "zip":"85013"
+         },
+         "phone":"(602) 406-3153",
+         "market":"az",
+         "logo":"DHMG Arizona"
+      }
+   ],
+   "nv":[
+      {
+        "id":"pavilion",
+        "idx_id":"PVP",
+        "name":"Pavillion Covid Vaccine Clinic",
+        "address":{
+          "street":"800 N GIBSON ROAD SUITE 201",
+          "city":"HENDERSON",
+          "state":"NV",
+          "zip":"89011"
+        },
+        "phone":"(702) 616-5801",
+        "market":"nv",
+        "logo":"DHMG Nevada"
+      }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+  "mmg": [
+    {
+      "id": "mmg-greenback-lane",
+      "idx_id": "C49",
+      "name": "MMG - Greenback Lane - Floor 3",
+      "address": {
+        "street": "7115 Greenback Lane - Floor 3",
+        "city": "Citrus Heights",
+        "state": "CA",
+        "zip": "95621"
+      },
+      "phone": "(916) 536-3540"
+    },
+    {
+      "id": "mmg-covid-vaccine-folsom",
+      "idx_id": "FL2",
+      "name": "MMG - COVID Vaccine - Folsom",
+      "address": {
+        "street": "1700 Prairie City Road Suite 170",
+        "city": "Folsom",
+        "state": "CA",
+        "zip": "95630"
+      },
+      "phone": "(916) 351-4800"
+    },
+    {
+      "id": "midtown-3rd-floor",
+      "idx_id": "A07",
+      "name": "Midtown - 3rd Floor",
+      "address": {
+        "street": "3000 Q St, FL 3",
+        "city": "Sacramento",
+        "state": "CA",
+        "zip": "95816"
+      },
+      "phone": "(916) 733-3333"
+    }
+  ],
+  "woodland": [
+    {
+      "id": "woodland-3",
+      "idx_id": "WG",
+      "name": "Woodland",
+      "address": {
+        "street": "632 W GIBSON ROAD",
+        "city": "Woodland",
+        "state": "CA",
+        "zip": "95695"
+      },
+      "phone": "(530) 668-2600"
+    }
+  ],
+  "dominican": [
+    {
+      "id": "dhmg-covid-vaccine-harbor-high",
+      "idx_id": "D74",
+      "name": "DHMG - COVID Vaccine - Harbor High",
+      "address": {
+        "street": "300 La Fonda Avenue",
+        "city": "Santa Cruz",
+        "state": "CA",
+        "zip": "95062"
+      },
+      "phone": "(831) 288-6526"
+    }
+  ],
+  "phc": [
+    {
+      "id": "pchc-med-plus-atascadero",
+      "idx_id": "DMW",
+      "name": "Med Plus Atascadero",
+      "address": {
+        "street": "5920 West Mall",
+        "city": "Atascadero",
+        "state": "CA",
+        "zip": "93422"
+      },
+      "phone": "(805) 466-0676"
+    },
+    {
+      "id": "med-plus-atascadero",
+      "idx_id": "DMW",
+      "name": "Med Plus Atascadero",
+      "address": {
+        "street": "5920 West Mall",
+        "city": "Atascadero",
+        "state": "CA",
+        "zip": "93422"
+      },
+      "phone": "(805) 466-0676"
+    },
+    {
+      "id": "family-medicine-center",
+      "idx_id": "FMD",
+      "name": "Family Medicine Center",
+      "address": {
+        "street": "1400 E. Church Street, Building 8",
+        "city": "Santa Maria",
+        "state": "CA",
+        "zip": "93454"
+      },
+      "phone": "(805) 739-3561"
+    },
+    {
+      "id": "pchc-family-medicine-center",
+      "idx_id": "FMD",
+      "name": "Family Medicine Center",
+      "address": {
+        "street": "1400 E. Church Street, Building 8",
+        "city": "Santa Maria",
+        "state": "CA",
+        "zip": "93454"
+      },
+      "phone": "(805) 739-3561"
+    },
+    {
+      "id": "med-plus-pismo-beach",
+      "idx_id": "PMH",
+      "name": "Med Plus Pismo Beach",
+      "address": {
+        "street": "877 OAK PARK BLVD",
+        "city": "Pismo Beach",
+        "state": "CA",
+        "zip": "93449"
+      },
+      "phone": "(805) 474-8450"
+    },
+    {
+      "id": "med-plus-central-coast",
+      "idx_id": "C13",
+      "name": "Med Plus Central Coast",
+      "address": {
+        "street": "2271 South Depot St",
+        "city": "Santa Maria",
+        "state": "CA",
+        "zip": "93455"
+      },
+      "phone": "(831) 288-6526"
+    }
+  ]
+}
